@@ -89,7 +89,7 @@ print_fiche_titre($langs->trans($page_name), $linkback);
 $head = partulajAdminPrepareHead();
 dol_fiche_head(
     $head,
-    'settings',
+    'timeclock',
     $langs->trans("Module209413Name"),
     0,
     "partulaj@partulaj"

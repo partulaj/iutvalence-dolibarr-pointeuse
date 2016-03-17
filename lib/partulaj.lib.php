@@ -41,7 +41,7 @@ function partulajAdminPrepareHead()
     $head[$h][2] = 'about';
     $h++;
     $head[$h][0] = dol_buildpath("/partulaj/admin/partulaj_timeclock.php", 1);
-    $head[$h][1] = $langs->trans("Timeclock");
+    $head[$h][1] = $langs->trans("partulajTimeclock");
     $head[$h][2] = 'timeclock';
     $h++;
 
